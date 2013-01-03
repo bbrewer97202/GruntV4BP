@@ -1,0 +1,22 @@
+/*********************************************************************************
+ * imports
+ ********************************************************************************/
+@import "compass";
+@import 'partials/normalize';
+
+
+/* fpo styles to see output */
+body {
+    background-color: white;    
+    font-family: sans;
+}
+
+p {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #eee;
+    @include border-radius(8px);
+}
+
